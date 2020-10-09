@@ -25,8 +25,10 @@ function Home() {
     const handle = Handles[randomiser(Handles.length - 1)];
     const template = Templates[randomiser(Templates.length - 1)];
     
-    setTweet(`${greeting} ${handle}, ${template.message}`)
+    setTweet(encodeURI(`${greeting} ${handle}, ${template.message}`))
   };
+
+  const hashtags = `EndSARSNow,EndSARS,EndSARSProtests`
 
   return (
     <React.Fragment>
@@ -40,7 +42,7 @@ function Home() {
 
           <div className={styles.boxesContainer}>
             <a
-              href={`http://twitter.com/intent/tweet?text=${tweet}`}
+              href={`http://twitter.com/intent/tweet?text=${tweet}&hashtags=${hashtags}`}
               target='_blank'
               rel='noreferrer noopener'
               className={styles.infoBox}
