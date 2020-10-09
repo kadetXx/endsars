@@ -10,5 +10,8 @@ export default [
   },
   {
     message: "2017, they were banned, 2018 they were banned again, 2019, they were banned also. Three times is enough for you to know that it is not working #ENDSARSNow"
+  },
+  {
+    message: "we young ones are tired of being killed, harrased and arrested just for going about with our own gadgets or having money in our bank account, please do something! Use your platform/office to voice out for us #EndSARS"
   }
 ]
