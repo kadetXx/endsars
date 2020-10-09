@@ -60,7 +60,7 @@ A frustrated but hardworking Nigerian youth
             </Link>
 
             <a
-              href={`whatsapp://send?text=${message}`}
+              href={`https://api.whatsapp.com/send?phone&text='${message}`}
               className={styles.infoBox}
             >
               <i className='fab fa-whatsapp-square'></i>
