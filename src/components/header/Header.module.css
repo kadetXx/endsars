@@ -4,7 +4,6 @@
   justify-content: space-between;
   padding: .7rem 7%;
   background: url('/assets/img/rinuu.jpg') !important;
-  color: #B81605;
   color: #F70000;
   width: 100%;
   max-width: 100%;
@@ -32,8 +31,14 @@
   cursor: pointer;
 }
 
+.devCorner a {
+  all: unset;
+  cursor: pointer;
+}
+
 .devCorner i {
   font-size: 2rem;
+  color: #F70000;
 }
 
 @media(max-width: 800px) {
