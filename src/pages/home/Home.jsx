@@ -119,7 +119,7 @@ function Home() {
 
           <section>
             <h2>
-              <i class='fas fa-laptop-code'></i> Contributors
+              <i className='fas fa-laptop-code'></i> Contributors
             </h2>
             <ul>
               <li>
