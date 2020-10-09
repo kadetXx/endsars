@@ -36,4 +36,9 @@ export default [
   "@iamDouyeDiri",
   "@AWTambuwal",
   "@ProfZulum",
+  "@Bashirahmaad", 
+  "@NigeriaGov", 
+  "@ogundamisi", 
+  "@femigbaja", 
+  "@femadesina",
 ];
