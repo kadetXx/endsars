@@ -144,6 +144,16 @@ function Home() {
 
               <li>
                 <a
+                  href='https://twitter.com/eniayomi_'
+                  target='_blank'
+                  rel='noreferrer noopener'
+                >
+                  @eniayomi_
+                </a>
+              </li>
+
+              <li>
+                <a
                   href='https://twitter.com/bhalow_meenat'
                   target='_blank'
                   rel='noreferrer noopener'
