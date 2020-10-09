@@ -747,5 +747,216 @@ export default [
     "state": "FCT",
     "phoneNo": "08034509106",
     "email": "philipaduda2@yahoo.com"
+  },
+  {
+    "id": "105",
+    "name": "Hon. Abass Adigun",
+    "state": "Oyo",
+    "phoneNo": "09057302409",
+    "email": "adbass1@hotmail.com"
+  },
+  {
+    "id": "106",
+    "name": "Hon. A. Tajudeen",
+    "state": "Kaduna",
+    "phoneNo": "08168355552",
+    "email": "tajudeenabbas@yahoo.com"
+  },
+  {
+    "id": "107",
+    "name": "Hon. A. Abdel-Majid",
+    "state": "Ogun",
+    "phoneNo": "08037470021",
+    "email": "attackeradekoya@yahoo.com"
+  },
+  {
+    "id": "108",
+    "name": "Hon. A. Jimoh",
+    "state": "Lagos",
+    "phoneNo": "08033019132",
+    "email": "mhrjj2015@gmail.com"
+  },
+   {
+    "id": "109",
+    "name": "Hon. A. Olododo",
+    "state": "Kwara",
+    "phoneNo": "08033967037",
+    "email": "abdulganiyucookolododo@gmail.com"
+  },
+  {
+    "id": "110",
+    "name": "Hon. A. Armayau",
+    "state": "Kastina",
+    "phoneNo": "09072211111",
+    "email": "armayaua@gmail.com"
+  },
+  {
+    "id": "111",
+    "name": "Hon. A. Rahis",
+    "state": "Maiduguri",
+    "phoneNo": "08064932222",
+    "email": "abdulkadirrahir1968@gmail.com"
+  },
+  {
+    "id": "112",
+    "name": "Hon. A. Usman",
+    "state": "Nassarawa",
+    "phoneNo": "08035970277",
+    "email": "ombamas@yahoo.com"
+  },
+  {
+    "id": "113",
+    "name": "Hon. A. Mamudu",
+    "state": "Niger",
+    "phoneNo": "08036442043",
+    "email": "katunabdullahi@gmail.com"
+  },
+   {
+    "id": "114",
+    "name": "Hon.  A. Usman",
+    "state": "Niger",
+    "phoneNo": "08082046021",
+    "email": "abunana14@gmail.com"
+  },
+   {
+    "id": "115",
+    "name": "Hon. A. Salami",
+    "state": "Sokoto",
+    "phoneNo": "08036067910",
+    "email": "drabdullahi621@gmail.com"
+  },
+   {
+    "id": "116",
+    "name": "Hon. A. Mahmud",
+    "state": "Niger",
+    "phoneNo": "08038181888",
+    "email": "abdullahigaya@yahoo.com"
+  },
+   {
+    "id": "117",
+    "name": "Hon. A. Idris Garba",
+    "state": "Niger",
+    "phoneNo": "07067777044",
+    "email": "abdul_i@gmail.com"
+  },
+   {
+    "id": "118",
+    "name": "Hon. A. Ken Ken",
+    "state": "Kano",
+    "phoneNo": "08033265478",
+    "email": "lawanabdullahikenken@gmail.com"
+  },
+   {
+    "id": "119",
+    "name": "Hon. A. Abdulkadir",
+    "state": "Bauchi",
+    "phoneNo": "08088444050",
+    "email": "baba.iyalai@gmail.com"
+  },
+   {
+    "id": "120",
+    "name": "Hon. A. Mohammed",
+    "state": "Nassarawa",
+    "phoneNo": "08069662637",
+    "email": "arimuhammad7bk@gmail.com"
+  },
+   {
+    "id": "121",
+    "name": "Hon. A. Olawuyi",
+    "state": "Kwara",
+    "phoneNo": "08181007936",
+    "email": "tunjitokyo@gmail.com"
+  },
+   {
+    "id": "122",
+    "name": "Hon. A. Modibbo",
+    "state": "Adamawa",
+    "phoneNo": "08104222222",
+    "email": "abdulraufmodibbo@gmail.com"
+  },
+   {
+    "id": "123",
+    "name": "Hon. A. Namdas",
+    "state": "Adamawa",
+    "phoneNo": "07034724818",
+    "email": "namdasrasak2011@gmail.com"
+  },
+   {
+    "id": "124",
+    "name": "Hon. A. Mubarak",
+    "state": "Taraba",
+    "phoneNo": "08038297492",
+    "email": "mubarak3829@gmail.com"
+  },
+   {
+    "id": "125",
+    "name": "Hon. A. Faleke",
+    "state": "Lagos",
+    "phoneNo": "08033069103",
+    "email": "jamesfaleke.jf@gmail.com"
+  },
+   {
+    "id": "126",
+    "name": "Hon. A. Makinde",
+    "state": "Ondo",
+    "phoneNo": "08166189531",
+    "email": "pmakinde@gmail.com"
+  },
+   {
+    "id": "127",
+    "name": "Hon. A. Ahmad",
+    "state": "Sokoto",
+    "phoneNo": "08036179414",
+    "email": "abuabdu75@gmail.com"
+  },
+   {
+    "id": "128",
+    "name": "Hon. A. Fulata",
+    "state": "Jigawa",
+    "phoneNo": "08033120968",
+    "email": "afulata28@gmail.com"
+  },
+   {
+    "id": "129",
+    "name": "Hon. A. Nalaraba",
+    "state": "Nassarawa",
+    "phoneNo": "08113616344",
+    "email": "nalarabsy2k2@gmail.com"
+  },
+   {
+    "id": "130",
+    "name": "Hon. A. Abubakar",
+    "state": "Kano",
+    "phoneNo": "08135403288",
+    "email": "abubakarkabir@gmail.com"
+  },
+   {
+    "id": "131",
+    "name": "Hon. A. Abdullahi",
+    "state": "Niger",
+    "phoneNo": "08036314405",
+    "email": "maiallah2015@yahoo.com"
+  },
+   {
+    "id": "132",
+    "name": "Hon. A. Dahiru",
+    "state": "Nassarawa",
+    "phoneNo": "0862423728",
+    "email": "abusarkid@gmail.com"
+  },
+   {
+    "id": "133",
+    "name": "Hon. A. Umaru",
+    "state": "Sokoto",
+    "phoneNo": "08036029300",
+    "email": "danbakari.au@gmail.com"
+  },
+   {
+    "id": "134",
+    "name": "Hon. A. Kusada",
+    "state": "Kastina",
+    "phoneNo": "07030000618",
+    "email": "garkuwa2015@gmail.com"
   }
+  
 ]
