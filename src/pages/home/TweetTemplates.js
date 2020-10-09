@@ -13,5 +13,11 @@ export default [
   },
   {
     message: "we young ones are tired of being killed, harrased and arrested just for going about with our own gadgets or having money in our bank account, please do something! Use your platform/office to voice out for us"
+  },
+  {
+    message: "we are beign killed and harrased by the same people who are supposed to protect us, please do something, speak for us"
+  },
+  {
+    message: 'we will not back down till our voices are heard, use your office.platform to stand for the youths, we are fighting for the right to be alive which is a basic human right. We want changes!'
   }
 ]
