@@ -3,40 +3,30 @@ import { Link } from "react-router-dom";
 import styles from "./Home.module.css";
 
 import Hero from "../../components/hero/Hero";
-import Popup from '../../components/popup/Popup'
+import Popup from "../../components/popup/Popup";
+
+
+import Broadcast from "./broadcast";
+import Greetings from './greetings'
+import Templates from "./TweetTemplates";
+import Handles from "./Handles";
 
 function Home() {
-  const [showPopup, setShowPopup] = useState(false)
+  const [showPopup, setShowPopup] = useState(false);
+  const [tweet, setTweet] = useState("");
 
-  const message = encodeURI(`
-  *ATTENTION* ‼️‼️
+  const randomiser = (max) => {
+    return Math.floor(Math.random() * (max - 0 + 1)) + 0;
+  }
 
-*THIS IS VERY IMPORTANT ESPECIALLY IF YOU ARE A PARENT WITH YOUTHS*
-A group of law enforcement officers called SARS have been terrorizing our young people. 
-If you are young, have a gadget, an interesting hairstyle (sometimes you don’t even need to have an interesting hairstyle) or a laptop bag, you’re automatically under attack. 
-
-Young people (our brothers, sisters, friends and your children) have been extorted, beaten and even in some cases detained just for being successful. That is their only crime. In recent times, this has been on the increase and a number of deaths have been recorded, with no action from our leaders. 
-
-So they have decided enough is enough. Joined by celebrities such as Folarin “Falz” Falana and Runtown, protests have been holding nationwide since Thursday the 8th of October, still we have no word from the presidency and no coverage from the major media houses. 
-
-We are calling on you our parents because we know the amount of influence you wield to join forces with us to EndSARS!. End SARS not reform it. We’re tired of being extorted because we are trying to make a living, having our laptops taken from us, our phones searched and our accounts being emptied. 
-
-You can read more about how the protests are going here https://www.zikoko.com/life/citizen/the-police-are-harassing-endsars-protesters-1/
-
-You can also call and email our reps to make them as uncomfortable as possible, you can find their contact details here https://endsars.vercel.app/
-
-Whatever you do, please don’t be silent. 
-Join us to Endsars!. 
-
-We are tired of burying our friends, YOU deserve to reap the fruit of your labour over us but that won’t happen if we’re dead. 
-
-Help us by forwarding to all your contacts and taking action 
-*Help us ENDSARS!*
-
-Yours sincerely 
-A frustrated but hardworking Nigerian youth
-
-  `);
+  const prepareLink = () => {
+    
+    const greeting = Greetings[randomiser(Greetings.length - 1)];
+    const handle = Handles[randomiser(Handles.length - 1)];
+    const template = Templates[randomiser(Templates.length - 1)];
+    
+    setTweet(`${greeting} ${handle}, ${template.message}`)
+  };
 
   return (
     <React.Fragment>
@@ -49,10 +39,16 @@ A frustrated but hardworking Nigerian youth
           </h3>
 
           <div className={styles.boxesContainer}>
-            <Link to='#' className={styles.infoBox} onClick={() => setShowPopup(true)}>
-              <i className='fas fa-donate'></i>
-              <h4>Donate</h4>
-            </Link>
+            <a
+              href={`http://twitter.com/intent/tweet?text=${tweet}`}
+              target='_blank'
+              rel='noreferrer noopener'
+              className={styles.infoBox}
+              onClick={() => prepareLink()}
+            >
+              <i className="fab fa-twitter"></i>
+              <h4>Tweet</h4>
+            </a>
 
             <Link to='/politicians' className={styles.infoBox}>
               <i className='fas fa-feather-alt'></i>
@@ -60,7 +56,7 @@ A frustrated but hardworking Nigerian youth
             </Link>
 
             <a
-              href={`https://api.whatsapp.com/send?phone&text=${message}`}
+              href={`https://api.whatsapp.com/send?phone&text=${Broadcast}`}
               className={styles.infoBox}
             >
               <i className='fab fa-whatsapp-square'></i>
@@ -131,7 +127,9 @@ A frustrated but hardworking Nigerian youth
                   href='https://twitter.com/kadetXx'
                   target='_blank'
                   rel='noreferrer noopener'
-                >@kadetXx</a> 
+                >
+                  @kadetXx
+                </a>
               </li>
 
               <li>
@@ -139,7 +137,9 @@ A frustrated but hardworking Nigerian youth
                   href='https://twitter.com/Niles_jamex'
                   target='_blank'
                   rel='noreferrer noopener'
-                >@Niles_jamex</a>
+                >
+                  @Niles_jamex
+                </a>
               </li>
 
               <li>
@@ -147,7 +147,39 @@ A frustrated but hardworking Nigerian youth
                   href='https://twitter.com/bhalow_meenat'
                   target='_blank'
                   rel='noreferrer noopener'
-                >@bhalow_meenat</a>
+                >
+                  @bhalow_meenat
+                </a>
+              </li>
+
+              <li>
+                <a
+                  href='https://twitter.com/ridwanabiola2'
+                  target='_blank'
+                  rel='noreferrer noopener'
+                >
+                  @ridwanabiola2
+                </a>
+              </li>
+
+              <li>
+                <a
+                  href='https://twitter.com/EvidenceISO'
+                  target='_blank'
+                  rel='noreferrer noopener'
+                >
+                  @EvidenceISO
+                </a>
+              </li>
+
+              <li>
+                <a
+                  href='https://twitter.com/iamthepatoo'
+                  target='_blank'
+                  rel='noreferrer noopener'
+                >
+                  @iamthepatoo
+                </a>
               </li>
             </ul>
           </section>
