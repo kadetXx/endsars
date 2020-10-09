@@ -131,7 +131,23 @@ A frustrated but hardworking Nigerian youth
                   href='https://twitter.com/kadetXx'
                   target='_blank'
                   rel='noreferrer noopener'
-                >@kadetXx</a>
+                >@kadetXx</a> 
+              </li>
+
+              <li>
+                <a
+                  href='https://twitter.com/Niles_jamex'
+                  target='_blank'
+                  rel='noreferrer noopener'
+                >@Niles_jamex</a>
+              </li>
+
+              <li>
+                <a
+                  href='https://twitter.com/bhalow_meenat'
+                  target='_blank'
+                  rel='noreferrer noopener'
+                >@bhalow_meenat</a>
               </li>
             </ul>
           </section>
