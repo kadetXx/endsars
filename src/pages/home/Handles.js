@@ -36,4 +36,8 @@ export default [
   "@iamDouyeDiri",
   "@AWTambuwal",
   "@ProfZulum",
+  "@bashirahmaad",
+  "@femigbaja", 
+  "@femadesina", 
+
 ];
