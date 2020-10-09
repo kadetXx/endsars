@@ -107,7 +107,7 @@
 .footer {
   padding: 3rem 7%;
   background-color: #000;
-  justify-content: space-between;
+  /* justify-content: space-between; */
 }
 
 @media(min-width: 900px) {

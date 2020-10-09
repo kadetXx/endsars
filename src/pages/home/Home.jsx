@@ -105,12 +105,12 @@ A frustrated but hardworking Nigerian youth
             </ul>
           </section>
 
-          <section>
+          {/* <section>
             <h2>
               <i className='fas fa-tshirt'></i> Buy an #EndSARS T-shirt
             </h2>
             <img className={styles.ad} src='assets/img/ad.jpg' alt='' />
-          </section>
+          </section> */}
 
           <section>
             <h2>
