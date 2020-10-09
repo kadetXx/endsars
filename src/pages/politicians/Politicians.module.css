@@ -1,0 +1,47 @@
+main {
+  padding: 1% 7%;
+}
+
+.search {
+  padding: 1rem 0;
+  box-sizing: border-box;
+}
+
+.search form {
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.search form label {
+  width: 100%;
+  display: flex;
+  padding: .6rem 1rem;
+  align-items: center;
+  color: #333333;
+  border: 1px solid #efefef;
+  box-sizing: border-box;
+}
+
+.search form label i {
+  font-size: 1.2rem;
+  color: #F70000;
+  margin-right: 1rem;
+}
+
+.search form label input {
+  border: none;
+  outline: none;
+  flex-grow: 1;
+}
+
+input::placeholder {
+  color: #adadad;
+  font-family: 'Poppins', sans-serif;
+}
+
+.gridContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 1rem 0;
+}

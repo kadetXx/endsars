@@ -1,0 +1,47 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: .7rem 7%;
+  background: url('/assets/img/rinuu.jpg') !important;
+  color: #B81605;
+  color: #F70000;
+  width: 100%;
+  max-width: 100%;
+  box-sizing: border-box;
+  box-shadow: inset 0 0 1000px 1000px rgba(0, 0, 0, 0.747);
+}
+
+.headerTransparent {
+  background: transparent !important;
+  box-shadow: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+
+.logoContainer h1 {
+  margin: 0;
+  font-size: 2rem;
+}
+
+.logoContainer h1 a {
+  all: unset;
+  color: inherit;
+  cursor: pointer;
+}
+
+.devCorner i {
+  font-size: 2rem;
+}
+
+@media(max-width: 800px) {
+  .logoContainer h1, .devCorner i {
+    font-size: 1.5rem;
+  }
+}
+
+.devCorner i:hover {
+  opacity: 0.5;
+}
