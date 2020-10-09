@@ -44,4 +44,8 @@ export default [
   "@RealAARahman",
   "@DrIsaPantami",
   "@GovBauchi",
+  "@MBuhari",
+  "@ShehuSani",
+  "@GarShehu",
+  "@followlasg",
 ];

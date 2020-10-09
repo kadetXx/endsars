@@ -19,5 +19,8 @@ export default [
   },
   {
     message: 'we will not back down till our voices are heard, use your office.platform to stand for the youths, we are fighting for the right to be alive which is a basic human right. We want changes!'
+  },
+  {
+    message: "owning an iPhone isn't a crime, dressing well isn't a crime, being a young person isn't a crime, SARS operatives have done more harm than good, innocent lives are being lost everyday, do something!"
   }
 ]
