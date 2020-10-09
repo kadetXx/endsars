@@ -36,4 +36,12 @@ export default [
   "@iamDouyeDiri",
   "@AWTambuwal",
   "@ProfZulum",
+  "@SundayDareSD",
+  "@SolomonDalung",
+  "@femigbaja",
+  "@OvieOmoAgege",
+  "@teslimkfolarin",
+  "@RealAARahman",
+  "@DrIsaPantami",
+  "@GovBauchi",
 ];
