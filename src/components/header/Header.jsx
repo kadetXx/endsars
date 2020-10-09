@@ -10,7 +10,7 @@ function Header( {transparent} ) {
       </div>
 
       <div className={styles.devCorner}>
-        <a href="https://github.com/kadetXx/endsars" rel='noreferrer noopener'><i className='fab fa-github'></i></a>
+        <a href="https://github.com/kadetXx/endsars" target='_blank' rel='noreferrer noopener'><i className='fab fa-github'></i></a>
       </div>
     </header>
   )
