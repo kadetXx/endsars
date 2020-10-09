@@ -86,6 +86,15 @@ A frustrated but hardworking Nigerian youth
               </li>
               <li>
                 <a
+                  href='https://twitter.com/mrmacaronii'
+                  target='_blank'
+                  rel='noreferrer noopener'
+                >
+                  @mrmacaronii
+                </a>
+              </li>
+              <li>
+                <a
                   href='https://twitter.com/Dehkunle'
                   target='_blank'
                   rel='noreferrer noopener'
