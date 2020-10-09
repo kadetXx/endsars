@@ -13,5 +13,8 @@ export default [
   },
   {
     message: "we young ones are tired of being killed, harrased and arrested just for going about with our own gadgets or having money in our bank account, please do something! Use your platform/office to voice out for us #EndSARS"
+  }, 
+  {
+    message: "This particular movement is close to our heart! Our tech youth suffer for chasing their dreams, owning the laptops or phones they use for their jobs, learning & businesses. These upstanding citizens are labeled criminals for just being young & building their tech dreams #EndSARS" 
   }
 ]
