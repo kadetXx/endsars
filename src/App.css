@@ -9,3 +9,13 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+a{
+  text-decoration: none
+}
+/* Hero typewriter */
+.Typewriter{
+  display: inline
+}
+.Typewriter .sars_tags{
+  text-transform: uppercase
+}

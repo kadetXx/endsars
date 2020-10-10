@@ -42,6 +42,14 @@ function Home() {
 
           <div className={styles.boxesContainer}>
             <a
+              href="https://www.notion.so/b5632859ff7e4fe09d8cd73880f8aca7?v=6456a7172b9542a0b1487924766eaf7d"
+              target="_blank"
+              rel='noreferrer noopener'
+              className={styles.infoBox}>
+              <i className='fa fa-flag'></i>
+              <h4>Join the protest</h4>
+            </a>
+            <a
               href={`http://twitter.com/intent/tweet?text=${tweet}&hashtags=${hashtags}`}
               target='_blank'
               rel='noreferrer noopener'
