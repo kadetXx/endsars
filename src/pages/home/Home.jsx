@@ -33,6 +33,7 @@ function Home() {
   };
 
   const hashtags = `EndSARSNow,EndSARS,EndSARSProtests`;
+  const whatsappTags = `%23EndSARS %23EndSARSNow %23EndSARSProtests %23EndSARSBrutality`
 
   return (
     <React.Fragment>
@@ -71,7 +72,9 @@ function Home() {
             </Link>
 
             <a
-              href={`https://api.whatsapp.com/send?phone&text=${Broadcast}`}
+              href={`https://api.whatsapp.com/send?phone&text=${Broadcast}%0A%OA${whatsappTags}`}
+              target='_blank'
+              rel='noreferrer noopener'
               className={styles.infoBox}
             >
               <i className='fab fa-whatsapp-square'></i>
