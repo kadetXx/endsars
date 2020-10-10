@@ -4,6 +4,18 @@ import Header from "../../components/header/Header";
 
 import senators from "./Senators";
 import Politician from "../../components/politician/Politician";
+import "../../shared/gtag/";
+
+const prependUniqueLettersToId = (id = Math.floor(Math.random() * 10000)) => {
+  var text = "";
+  var possible =
+    "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789";
+
+  for (var i = 0; i < 5; i++)
+    text += possible.charAt(Math.floor(Math.random() * possible.length));
+
+  return text + id;
+};
 
 function Politicians() {
   const [allPoliticians, setAllPoliticians] = useState([]);
@@ -15,7 +27,6 @@ function Politicians() {
 
   const search = (e) => {
     e.preventDefault();
-    console.log('working');
 
     const results = [...senators].filter((item) => {
       return (
@@ -26,7 +37,7 @@ function Politicians() {
 
     setAllPoliticians([...results]);
 
-    query === '' && setAllPoliticians([...senators])
+    query === "" && setAllPoliticians([...senators]);
   };
 
   return (
@@ -37,12 +48,12 @@ function Politicians() {
         <div className={styles.search}>
           <form>
             <label>
-              <i className='fas fa-search'></i>
+              <i className="fas fa-search"></i>
               <input
-                type='text'
+                type="text"
                 // value={query}
-                onChange={e => [setQuery(e.target.value), search(e)]}
-                placeholder='Search politicians by name/state'
+                onChange={(e) => [setQuery(e.target.value), search(e)]}
+                placeholder="Search politicians by name/state"
               />
             </label>
           </form>
@@ -51,7 +62,7 @@ function Politicians() {
         <div className={styles.gridContainer}>
           {allPoliticians.map((item) => (
             <Politician
-              key={item.id}
+              key={prependUniqueLettersToId(item.id)}
               name={item.name}
               state={item.state}
               email={item.email}
