@@ -23,8 +23,13 @@ function Home() {
     const greeting = Greetings[randomiser(Greetings.length - 1)];
     const handle = Handles[randomiser(Handles.length - 1)];
     const template = Templates[randomiser(Templates.length - 1)];
+    const fullTweet = `${greeting} ${handle}, ${template.message}`;
 
-    setTweet(encodeURI(`${greeting} ${handle}, ${template.message}`));
+    if (fullTweet.length > 280) {
+      prepareLink();
+      return;
+    }
+    setTweet(encodeURI(fullTweet));
   };
 
   const hashtags = `EndSARSNow,EndSARS,EndSARSProtests`;
