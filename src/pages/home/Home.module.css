@@ -13,7 +13,7 @@
   padding: 3rem 7% 6rem;
 }
 
-@media(max-width: 525px) {
+@media (max-width: 525px) {
   .infoSection {
     padding: 3rem 3% 5rem;
   }
@@ -24,7 +24,7 @@
   text-align: center;
 }
 
-@media(max-width: 550px) {
+@media (max-width: 550px) {
   .infoSection img {
     max-width: 35%;
   }
@@ -77,11 +77,10 @@
 
 .infoBox h4 {
   font-size: 1.2rem;
-  -webkit-text-stroke: 0.2px #F70000;
+  -webkit-text-stroke: 0.2px #f70000;
 }
 
-
-@media(max-width: 800px) {
+@media (max-width: 800px) {
   .boxesContainer {
     justify-content: space-between;
     flex-direction: column;
@@ -89,7 +88,8 @@
   .infoBox {
     width: 80%;
     text-align: center;
-    border-radius: 3px;
+    box-shadow: 0 0 6px 0.5px #3333334b;
+    padding: 1rem;
     margin-bottom: 2rem;
   }
 
@@ -103,9 +103,8 @@
 
   .infoBox h4 {
     font-size: 1rem;
-    margin: 0 0 .5rem;
+    margin: 0 0 0.5rem;
   }
-
 }
 
 /* FOOTER */
@@ -116,7 +115,7 @@
   /* justify-content: space-between; */
 }
 
-@media(min-width: 900px) {
+@media (min-width: 900px) {
   .footer {
     display: flex;
   }
@@ -131,12 +130,12 @@
 }
 
 .footer h2 {
-  color: #F70000;
+  color: #f70000;
   font-size: 1.2rem;
 }
 
 .footer h2 i {
-  margin-right: .3rem;
+  margin-right: 0.3rem;
 }
 
 .footer ul {
@@ -145,7 +144,7 @@
 }
 
 .footer ul li {
-  padding: .4rem 0;
+  padding: 0.4rem 0;
 }
 
 .footer ul li a {
@@ -162,7 +161,7 @@
   max-width: 100%;
 }
 
-@media(min-width: 500px) {
+@media (min-width: 500px) {
   .footer .ad {
     width: 300px;
     height: auto;
