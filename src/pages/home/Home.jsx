@@ -200,6 +200,16 @@ function Home() {
                   @iamthepatoo
                 </a>
               </li>
+
+              <li>
+                <a
+                  href="https://twitter.com/walebant"
+                  target="_blank"
+                  rel="noreferrer noopener"
+                >
+                  @walebant
+                </a>
+              </li>
             </ul>
           </section>
         </footer>
