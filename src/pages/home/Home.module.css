@@ -80,6 +80,7 @@
   -webkit-text-stroke: 0.2px #f70000;
 }
 
+
 @media (max-width: 800px) {
   .boxesContainer {
     justify-content: space-between;

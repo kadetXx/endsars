@@ -53,11 +53,14 @@
 
 .about {
   color: #bbb;
-  font-size: 1.2rem;
+  font-size: 2.0rem;
   margin: 0;
   position: relative;
-  top: -4rem;
+  top: -1rem;
+  transition: all 500ms ease;
 }
+
+
 
 @media (max-width: 800px) {
   .about {
@@ -67,6 +70,8 @@
 }
 
 .about:hover {
-  text-decoration: underline;
-  color: #fff;
+  text-decoration: none;
+  color: red;
+  transform: scale(1.1);
+  transition: all 500ms ease;
 }
