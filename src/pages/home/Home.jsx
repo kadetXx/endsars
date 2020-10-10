@@ -72,7 +72,8 @@ function Home() {
             </Link>
 
             <a
-              href={`https://api.whatsapp.com/send?phone&text=${Broadcast}%0A%OA${whatsappTags}`}
+              href={`https://api.whatsapp.com/send?phone&text=${Broadcast}
+              ${whatsappTags}`}
               target='_blank'
               rel='noreferrer noopener'
               className={styles.infoBox}
