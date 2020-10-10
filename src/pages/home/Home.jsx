@@ -192,6 +192,16 @@ function Home() {
                   @iamthepatoo
                 </a>
               </li>
+
+              <li>
+                <a
+                  href="https://twitter.com/IamCradoe"
+                  target="_blank"
+                  rel="noreferrer noopener"
+                >
+                  @IamCradoe
+                </a>
+              </li>
             </ul>
           </section>
         </footer>
