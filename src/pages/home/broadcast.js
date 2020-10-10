@@ -36,6 +36,5 @@ to your friends in power, and release your wards to protest. We are all that we 
 must be heard.
 Signed, Millions of Nigerian Youths Protesting
 
-
 `);
 
