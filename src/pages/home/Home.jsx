@@ -208,6 +208,16 @@ function Home() {
 
               <li>
                 <a
+                  href="https://twitter.com/walebant"
+                  target="_blank"
+                  rel="noreferrer noopener"
+                >
+                  @walebant
+                </a>
+              </li>
+
+              <li>
+                <a
                   href="https://twitter.com/IamCradoe"
                   target="_blank"
                   rel="noreferrer noopener"
