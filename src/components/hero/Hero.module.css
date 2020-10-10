@@ -53,10 +53,17 @@
 
 .about {
   color: #db1313;
-  font-size: 1.2em;
+  font-size: 1.2rem;
   margin: 0;
   position: relative;
-  top: -60px;
+  top: -4rem;
+}
+
+@media (max-width: 800px) {
+  .about {
+    top: -1rem;
+    font-size: 0.9rem;
+  }
 }
 
 .about:hover {
