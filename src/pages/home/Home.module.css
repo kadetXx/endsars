@@ -57,7 +57,7 @@
   width: 28%;
   margin: .5rem;
   border-radius: 5px;
-  box-shadow: 0 0 30px .5px rgba(0,0,0,.08);
+  box-shadow: 0 0 6px .5px #3333334b;
   transition: .1s ease-out;
 }
 
