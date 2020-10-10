@@ -11,7 +11,7 @@
   box-sizing: border-box;
 }
 
-@media(max-width: 800px) {
+@media (max-width: 800px) {
   .hero {
     height: 22rem;
   }
@@ -33,20 +33,33 @@
   color: #fff;
 }
 
-.cta{
-  padding: .8rem 2rem;
+.cta {
+  padding: 0.8rem 2rem;
   font-size: 16px;
   border-radius: 3px;
-  background: #FFFFFF;
+  background: #ffffff;
   color: black;
 }
 
-@media(max-width: 800px) {
+@media (max-width: 800px) {
   .caption h2 {
     font-size: 1.5rem;
   }
 }
 
 .caption h2 span {
-  color: #F70000;
+  color: #f70000;
+}
+
+.about {
+  color: #f70000;
+  font-size: 1.2em;
+  margin: 0;
+  position: relative;
+  top: -60px;
+}
+
+.about:hover {
+  text-decoration: underline;
+  color: #fff;
 }
