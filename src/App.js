@@ -5,6 +5,7 @@ import './App.css';
 import Home from './pages/home/Home'
 import Politicians from './pages/politicians/Politicians'
 
+
 function App() {
   return (
     <div className="App">
