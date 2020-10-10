@@ -39,33 +39,34 @@ function Home() {
       <Hero />
       <div className={styles.home}>
         <section className={styles.infoSection}>
-          <img src="/assets/img/fist.jpg" className={styles.fistImage} alt="" />
+          <img src='/assets/img/fist.jpg' className={styles.fistImage} alt='' />
           <h3>
             Ways you can support the <br /> #EndSARS movement
           </h3>
 
           <div className={styles.boxesContainer}>
             <a
-              href="https://www.notion.so/b5632859ff7e4fe09d8cd73880f8aca7?v=6456a7172b9542a0b1487924766eaf7d"
-              target="_blank"
+              href='https://www.notion.so/b5632859ff7e4fe09d8cd73880f8aca7?v=6456a7172b9542a0b1487924766eaf7d'
+              target='_blank'
               rel='noreferrer noopener'
-              className={styles.infoBox}>
+              className={styles.infoBox}
+            >
               <i className='fa fa-flag'></i>
-              <h4>Join the protest</h4>
+              <h4>Join the protests</h4>
             </a>
             <a
               href={`http://twitter.com/intent/tweet?text=${tweet}&hashtags=${hashtags}`}
-              target="_blank"
-              rel="noreferrer noopener"
+              target='_blank'
+              rel='noreferrer noopener'
               className={styles.infoBox}
               onClick={() => prepareLink()}
             >
-              <i className="fab fa-twitter"></i>
+              <i className='fab fa-twitter'></i>
               <h4>Tweet</h4>
             </a>
 
-            <Link to="/politicians" className={styles.infoBox}>
-              <i className="fas fa-feather-alt"></i>
+            <Link to='/politicians' className={styles.infoBox}>
+              <i className='fas fa-feather-alt'></i>
               <h4>Remind Politicians</h4>
             </Link>
 
@@ -73,7 +74,7 @@ function Home() {
               href={`https://api.whatsapp.com/send?phone&text=${Broadcast}`}
               className={styles.infoBox}
             >
-              <i className="fab fa-whatsapp-square"></i>
+              <i className='fab fa-whatsapp-square'></i>
               <h4>Broadcast</h4>
             </a>
           </div>
@@ -82,41 +83,41 @@ function Home() {
         <footer className={styles.footer}>
           <section>
             <h2>
-              <i className="fab fa-twitter"></i> Follow top activists
+              <i className='fab fa-twitter'></i> Follow top activists
             </h2>
             <ul>
               <li>
                 <a
-                  href="https://twitter.com/SavvyRinu"
-                  target="_blank"
-                  rel="noreferrer noopener"
+                  href='https://twitter.com/SavvyRinu'
+                  target='_blank'
+                  rel='noreferrer noopener'
                 >
                   @savyrinuu_
                 </a>
               </li>
               <li>
                 <a
-                  href="https://twitter.com/mrmacaronii"
-                  target="_blank"
-                  rel="noreferrer noopener"
+                  href='https://twitter.com/mrmacaronii'
+                  target='_blank'
+                  rel='noreferrer noopener'
                 >
                   @mrmacaronii
                 </a>
               </li>
               <li>
                 <a
-                  href="https://twitter.com/Dehkunle"
-                  target="_blank"
-                  rel="noreferrer noopener"
+                  href='https://twitter.com/Dehkunle'
+                  target='_blank'
+                  rel='noreferrer noopener'
                 >
                   @Dehkunle
                 </a>
               </li>
               <li>
                 <a
-                  href="https://twitter.com/falzthebahdguy"
-                  target="_blank"
-                  rel="noreferrer noopener"
+                  href='https://twitter.com/falzthebahdguy'
+                  target='_blank'
+                  rel='noreferrer noopener'
                 >
                   @falzthebadguy
                 </a>
@@ -133,14 +134,14 @@ function Home() {
 
           <section>
             <h2>
-              <i className="fas fa-laptop-code"></i> Contributors
+              <i className='fas fa-laptop-code'></i> Contributors
             </h2>
             <ul>
               <li>
                 <a
-                  href="https://twitter.com/kadetXx"
-                  target="_blank"
-                  rel="noreferrer noopener"
+                  href='https://twitter.com/kadetXx'
+                  target='_blank'
+                  rel='noreferrer noopener'
                 >
                   @kadetXx
                 </a>
@@ -148,9 +149,9 @@ function Home() {
 
               <li>
                 <a
-                  href="https://twitter.com/Niles_jamex"
-                  target="_blank"
-                  rel="noreferrer noopener"
+                  href='https://twitter.com/Niles_jamex'
+                  target='_blank'
+                  rel='noreferrer noopener'
                 >
                   @Niles_jamex
                 </a>
@@ -158,9 +159,9 @@ function Home() {
 
               <li>
                 <a
-                  href="https://twitter.com/eniayomi_"
-                  target="_blank"
-                  rel="noreferrer noopener"
+                  href='https://twitter.com/eniayomi_'
+                  target='_blank'
+                  rel='noreferrer noopener'
                 >
                   @eniayomi_
                 </a>
@@ -168,9 +169,9 @@ function Home() {
 
               <li>
                 <a
-                  href="https://twitter.com/bhalow_meenat"
-                  target="_blank"
-                  rel="noreferrer noopener"
+                  href='https://twitter.com/bhalow_meenat'
+                  target='_blank'
+                  rel='noreferrer noopener'
                 >
                   @bhalow_meenat
                 </a>
@@ -178,9 +179,9 @@ function Home() {
 
               <li>
                 <a
-                  href="https://twitter.com/ridwanabiola2"
-                  target="_blank"
-                  rel="noreferrer noopener"
+                  href='https://twitter.com/ridwanabiola2'
+                  target='_blank'
+                  rel='noreferrer noopener'
                 >
                   @ridwanabiola2
                 </a>
@@ -188,9 +189,9 @@ function Home() {
 
               <li>
                 <a
-                  href="https://twitter.com/EvidenceISO"
-                  target="_blank"
-                  rel="noreferrer noopener"
+                  href='https://twitter.com/EvidenceISO'
+                  target='_blank'
+                  rel='noreferrer noopener'
                 >
                   @EvidenceISO
                 </a>
@@ -198,9 +199,9 @@ function Home() {
 
               <li>
                 <a
-                  href="https://twitter.com/iamthepatoo"
-                  target="_blank"
-                  rel="noreferrer noopener"
+                  href='https://twitter.com/iamthepatoo'
+                  target='_blank'
+                  rel='noreferrer noopener'
                 >
                   @iamthepatoo
                 </a>
@@ -208,9 +209,9 @@ function Home() {
 
               <li>
                 <a
-                  href="https://twitter.com/walebant"
-                  target="_blank"
-                  rel="noreferrer noopener"
+                  href='https://twitter.com/walebant'
+                  target='_blank'
+                  rel='noreferrer noopener'
                 >
                   @walebant
                 </a>
@@ -218,11 +219,21 @@ function Home() {
 
               <li>
                 <a
-                  href="https://twitter.com/IamCradoe"
-                  target="_blank"
-                  rel="noreferrer noopener"
+                  href='https://twitter.com/IamCradoe'
+                  target='_blank'
+                  rel='noreferrer noopener'
                 >
                   @IamCradoe
+                </a>
+              </li>
+
+              <li>
+                <a
+                  href='https://twitter.com/Mercester_'
+                  target='_blank'
+                  rel='noreferrer noopener'
+                >
+                  @Mercester_
                 </a>
               </li>
             </ul>
