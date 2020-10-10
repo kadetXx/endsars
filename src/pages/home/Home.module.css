@@ -53,10 +53,17 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  box-shadow: 0 0 6px 0.5px #3333334b;
-  padding: 1rem;
+  padding: 2rem 1rem !important;
   width: 28%;
-  margin-bottom: 0.5rem;
+  margin: .5rem;
+  border-radius: 5px;
+  box-shadow: 0 0 6px .5px #3333334b;
+  transition: .1s ease-out;
+}
+
+.infoBox:hover{
+  transform: translateY(-5%);
+  transition: .1s ease-out;
 }
 
 .infoBox i {

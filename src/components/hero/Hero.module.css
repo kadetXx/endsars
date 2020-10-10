@@ -13,12 +13,13 @@
 
 @media(max-width: 800px) {
   .hero {
-    height: 20rem;
+    height: 22rem;
   }
 }
 
 .caption {
   display: flex;
+  flex-direction: column;
   margin: auto;
   width: 100%;
   flex-grow: 1;
@@ -30,6 +31,14 @@
   text-align: center;
   font-size: 4rem;
   color: #fff;
+}
+
+.cta{
+  padding: .8rem 2rem;
+  font-size: 16px;
+  border-radius: 3px;
+  background: #FFFFFF;
+  color: black;
 }
 
 @media(max-width: 800px) {
