@@ -72,8 +72,7 @@ function Home() {
               <h4>Remind Politicians</h4>
             </Link>
 
-            <Link
-              to='#'
+            <p
               className={styles.infoBox}
             >
               <div className={styles.iconGroup}>
@@ -103,7 +102,7 @@ function Home() {
               </div>
 
               <h4>Broadcast</h4>
-            </Link>
+            </p>
           </div>
         </section>
 

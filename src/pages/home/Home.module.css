@@ -45,6 +45,11 @@
   flex-wrap: wrap;
 }
 
+p.infoBox {
+  margin-block-start: 0;
+  margin-block-end: 0;
+}
+
 .infoBox {
   all: unset;
   color: #333333;
@@ -55,15 +60,15 @@
   align-items: center;
   padding: 2rem 1rem !important;
   width: 28%;
-  margin: .5rem;
+  margin: 0.5rem;
   border-radius: 5px;
-  box-shadow: 0 0 6px .5px #3333334b;
-  transition: .1s ease-out;
+  box-shadow: 0 0 6px 0.5px #3333334b;
+  transition: 0.1s ease-out;
 }
 
-.infoBox:hover{
+.infoBox:hover {
   transform: translateY(-5%);
-  transition: .1s ease-out;
+  transition: 0.1s ease-out;
 }
 
 .infoBox i {
