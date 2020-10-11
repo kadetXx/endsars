@@ -27,10 +27,10 @@ export default [
     message: "We, the Nigerian youths are in desperate times and we call on you to help us. Lend your voices and amplify our pleas. There would be no customers to patronise you if we are dead"
   },
   {
-    message: "You wouldn't hold political offices without our votes. We voted you into office to serve us. Power resides in the hands of the citizens. Hear our cries and"
+    message: "You wouldn't hold political offices without our votes. We voted you into office to serve us. Power resides in the hands of the citizens. Hear our cries"
   },
   {
-    message: "The Nigerian youths are being brutalised, harassed, raped and killed by the police that should be protecting us. We are not safe in our own country. Our cries to the government in power has fallen on deaf ears. All we want us to"
+    message: "The Nigerian youths are being brutalised, harassed, raped and killed by the police that should be protecting us. We are not safe in our own country. Our cries to the government in power has fallen on deaf ears."
   },{
     message: "The structure of the Nigerian police is decayed and needs a total overhaul from top to bottom. The youths are getting killed, raped and brutalised instead of being protected."
   }
