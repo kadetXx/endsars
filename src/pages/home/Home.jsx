@@ -158,11 +158,11 @@ function Home() {
             <img className={styles.ad} src='assets/img/ad.jpg' alt='' />
           </section> */}
 
-          <section>
+          <section className={styles.contributors}>
             <h2>
               <i className='fas fa-laptop-code'></i> Contributors
             </h2>
-            <ul>
+            <ul className={styles.twoColumn}>
               <li>
                 <a
                   href='https://twitter.com/kadetXx'
@@ -260,6 +260,16 @@ function Home() {
                   rel='noreferrer noopener'
                 >
                   @Mercester_
+                </a>
+              </li>
+
+              <li>
+                <a
+                  href='https://twitter.com/a_dayomoshood'
+                  target='_blank'
+                  rel='noreferrer noopener'
+                >
+                  @a_dayomoshood
                 </a>
               </li>
             </ul>
