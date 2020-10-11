@@ -132,6 +132,7 @@ p.infoBox {
 
 .footer section {
   margin-bottom: 2rem;
+  /* flex-grow: 1; */
 }
 
 .footer h2 {
@@ -146,6 +147,15 @@ p.infoBox {
 .footer ul {
   padding: 0;
   list-style: none;
+}
+
+.twoColumn {
+  column-count: 2;
+}
+
+section.contributors {
+  margin-right: 0;
+  /* flex-grow: 2; */
 }
 
 .footer ul li {
