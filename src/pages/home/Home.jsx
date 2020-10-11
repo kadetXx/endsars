@@ -72,12 +72,35 @@ function Home() {
             </Link>
 
             <a
-              href={`https://api.whatsapp.com/send?phone&text=${Broadcast}${whatsappTags}`}
-              target='_blank'
-              rel='noreferrer noopener'
+              href={'#'}
               className={styles.infoBox}
             >
-              <i className='fab fa-whatsapp-square'></i>
+              <div className={styles.iconGroup}>
+                <a
+                  href={`https://api.whatsapp.com/send?phone&text=${Broadcast}${whatsappTags}`}
+                  target='_blank'
+                  rel='noreferrer noopener'
+                >
+                  <i className='fab fa-whatsapp-square'></i>
+                </a>
+
+                <a
+                  href={`https://www.facebook.com/sharer/sharer.php?u=${window.location}&quote=${Broadcast}`}
+                  target='_blank'
+                  rel='noreferrer noopener'
+                >
+                  <i className='fab fa-facebook-square'></i>
+                </a>
+
+                <a
+                  href={`https://telegram.me/share/url?url=${window.location}&text=${Broadcast}`}
+                  target='_blank'
+                  rel='noreferrer noopener'
+                >
+                  <i className='fab fa-telegram'></i>
+                </a>
+              </div>
+
               <h4>Broadcast</h4>
             </a>
           </div>

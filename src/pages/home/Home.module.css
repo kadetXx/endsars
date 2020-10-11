@@ -167,3 +167,11 @@
     height: auto;
   }
 }
+
+.infoBox .iconGroup {
+  display: flex;
+}
+
+.infoBox .iconGroup > a {
+  color: #000000;
+}
