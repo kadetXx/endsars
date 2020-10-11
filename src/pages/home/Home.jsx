@@ -55,6 +55,7 @@ function Home() {
               <i className='fa fa-flag'></i>
               <h4>Join the protests</h4>
             </a>
+
             <a
               href={`http://twitter.com/intent/tweet?text=${tweet}&hashtags=${hashtags}`}
               target='_blank'
@@ -71,8 +72,8 @@ function Home() {
               <h4>Remind Politicians</h4>
             </Link>
 
-            <a
-              href={'#'}
+            <Link
+              to='#'
               className={styles.infoBox}
             >
               <div className={styles.iconGroup}>
@@ -102,7 +103,7 @@ function Home() {
               </div>
 
               <h4>Broadcast</h4>
-            </a>
+            </Link>
           </div>
         </section>
 

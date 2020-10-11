@@ -172,6 +172,10 @@
   display: flex;
 }
 
+.infoBox .iconGroup a {
+  margin: 0 1rem;
+}
+
 .infoBox .iconGroup > a {
   color: #000000;
 }
