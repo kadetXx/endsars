@@ -1,3 +1,3 @@
 export default [
-  'Dear', 'Hello','Hi, just a reminder', "Gooday", "Hi"
+  'Dear', 'Hello','Hi, just a reminder', "Good day", "Hi"
 ]
