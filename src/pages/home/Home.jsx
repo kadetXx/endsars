@@ -32,8 +32,8 @@ function Home() {
     setTweet(encodeURI(fullTweet));
   };
 
-  const hashtags = `SARSMUSTEND,EndSARSNow,EndSARS,EndSARSProtests`;
-  const whatsappTags = `%23SARSMUSTEND %23EndSARSNow %23EndSARSProtests %23EndSARSBrutality`
+  const hashtags = `SARSMUSTEND,EndSARSNow,EndSARS,EndSARSProtests,NIGERIABLEEDS`;
+  const whatsappTags = `%23SARSMUSTEND %23EndSARSNow %23EndSARSProtests %23EndSARSBrutality %23NIGERIABLEEDS`
 
   return (
     <React.Fragment>
