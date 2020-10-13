@@ -146,7 +146,25 @@ function Home() {
                   @AishaYesufu
                 </a>
               </li>
-              <li>
+              <li> 
+                <a
+                  href='https://twitter.com/fkabudu'
+                  target='_blank'
+                  rel='noreferrer noopener'
+                >
+                  @fkabudu
+                </a>
+              </li>
+              <li> 
+                <a
+                  href='https://twitter.com/kikimordi'
+                  target='_blank'
+                  rel='noreferrer noopener'
+                >
+                  @kikimordi
+                </a>
+              </li>
+              <li> 
                 <a
                   href='https://twitter.com/falzthebahdguy'
                   target='_blank'
