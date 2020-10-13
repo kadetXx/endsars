@@ -38,6 +38,8 @@ function Home() {
 
   const cbnSubject = 'Flutterwave #EndSARS Payment Link Complaint';
 
+  console.log(`mailto:${`contactcbn@cbn.gov.ng`}?subject=${cbnSubject}&body=${cbnBody}`);
+
   return (
     <React.Fragment>
       <Hero />
@@ -57,7 +59,7 @@ function Home() {
               className={styles.infoBox}
             >
               <i className='fa fa-flag'></i>
-              <h4>Support Flutterwave</h4>
+              <h4>Speak for Fultterwave </h4>
             </a>
 
             <a
