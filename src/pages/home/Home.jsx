@@ -139,11 +139,11 @@ function Home() {
               </li>
               <li>
                 <a
-                  href='https://twitter.com/Dehkunle'
+                  href='https://twitter.com/AishaYesufu'
                   target='_blank'
                   rel='noreferrer noopener'
                 >
-                  @Dehkunle
+                  @AishaYesufu
                 </a>
               </li>
               <li>
