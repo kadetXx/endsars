@@ -59,7 +59,7 @@ function Home() {
               className={styles.infoBox}
             >
               <i className='fa fa-flag'></i>
-              <h4>Speak for Fultterwave </h4>
+              <h4>Speak for Flutterwave </h4>
             </a>
 
             <a
