@@ -166,6 +166,15 @@ function Home() {
               </li>
               <li> 
                 <a
+                  href='https://twitter.com/Moechievous'
+                  target='_blank'
+                  rel='noreferrer noopener'
+                >
+                  @Moechievous
+                </a>
+              </li>
+              <li> 
+                <a
                   href='https://twitter.com/falzthebahdguy'
                   target='_blank'
                   rel='noreferrer noopener'
