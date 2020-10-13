@@ -57,6 +57,7 @@ function Home() {
               target='_blank'
               rel='noreferrer noopener'
               className={styles.infoBox}
+              onClick={() => setShowPopup(true)}
             >
               <i className='fa fa-flag'></i>
               <h4>Speak for Flutterwave </h4>
