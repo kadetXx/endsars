@@ -33,8 +33,8 @@ function Home() {
     setTweet(encodeURI(fullTweet));
   };
 
-  const hashtags = `SARSMUSTEND,EndPoliceBrutality`;
-  const whatsappTags = `%23SARSMUSTEND %23EndPoliceBrutality %23EndSARSNow %23EndSARSProtests`;
+  const hashtags = `EndSARS`;
+  const whatsappTags = `%23EndSARS %23EndPoliceBrutality`;
 
   // const cbnSubject = "Flutterwave #EndSARS Payment Link Complaint";
 

@@ -11,7 +11,7 @@ function Hero( ) {
       <Header transparent={true} />
       <div className={styles.caption} >
         <h2> Stop <Typewriter texts={ crimeKeywords } />
-          <br/> Let Our Voices be Heard! <br/> <span>#SARSMustEnd!</span> </h2>
+          <br/> Let Our Voices be Heard! <br/> <span>#EndSARS!</span> </h2>
         <a className={styles.about} href="https://en.wikipedia.org/wiki/End_SARS" rel="noopener noreferrer" target="_blank">
           About This Movement
         </a>
