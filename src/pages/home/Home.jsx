@@ -9,7 +9,7 @@ import Broadcast from "./broadcast";
 import Greetings from "./greetings";
 import Templates from "./TweetTemplates";
 import Handles from "./Handles";
-import cbnBody from './flutterwave'
+import cbnBody from "./flutterwave";
 import "../../shared/gtag/";
 
 function Home() {
@@ -34,11 +34,13 @@ function Home() {
   };
 
   const hashtags = `SARSMUSTEND,EndPoliceBrutality`;
-  const whatsappTags = `%23SARSMUSTEND %23EndPoliceBrutality %23EndSARSNow %23EndSARSProtests`
+  const whatsappTags = `%23SARSMUSTEND %23EndPoliceBrutality %23EndSARSNow %23EndSARSProtests`;
 
-  const cbnSubject = 'Flutterwave #EndSARS Payment Link Complaint';
+  const cbnSubject = "Flutterwave #EndSARS Payment Link Complaint";
 
-  console.log(`mailto:${`contactcbn@cbn.gov.ng`}?subject=${cbnSubject}&body=${cbnBody}`);
+  console.log(
+    `mailto:${`contactcbn@cbn.gov.ng`}?subject=${cbnSubject}&body=${cbnBody}`
+  );
 
   return (
     <React.Fragment>
@@ -52,15 +54,15 @@ function Home() {
 
           <div className={styles.boxesContainer}>
             <a
-              // href='https://www.notion.so/b5632859ff7e4fe09d8cd73880f8aca7?v=6456a7172b9542a0b1487924766eaf7d'
-              href={`mailto:${`contactcbn@cbn.gov.ng`}?subject=${cbnSubject}&body=${cbnBody}`}
+              href='https://www.notion.so/b5632859ff7e4fe09d8cd73880f8aca7?v=6456a7172b9542a0b1487924766eaf7d'
+              // href={`mailto:${`contactcbn@cbn.gov.ng`}?subject=${cbnSubject}&body=${cbnBody}`}
               target='_blank'
               rel='noreferrer noopener'
               className={styles.infoBox}
               onClick={() => setShowPopup(true)}
             >
               <i className='fa fa-flag'></i>
-              <h4>Speak for Flutterwave </h4>
+              <h4>Join The Protests </h4>
             </a>
 
             <a
@@ -79,9 +81,7 @@ function Home() {
               <h4>Remind Politicians</h4>
             </Link>
 
-            <p
-              className={styles.infoBox}
-            >
+            <p className={styles.infoBox}>
               <div className={styles.iconGroup}>
                 <a
                   href={`https://api.whatsapp.com/send?phone&text=${Broadcast}${whatsappTags}`}
@@ -146,7 +146,7 @@ function Home() {
                   @AishaYesufu
                 </a>
               </li>
-              <li> 
+              <li>
                 <a
                   href='https://twitter.com/fkabudu'
                   target='_blank'
@@ -155,7 +155,7 @@ function Home() {
                   @fkabudu
                 </a>
               </li>
-              <li> 
+              <li>
                 <a
                   href='https://twitter.com/kikimordi'
                   target='_blank'
@@ -164,7 +164,7 @@ function Home() {
                   @kikimordi
                 </a>
               </li>
-              <li> 
+              <li>
                 <a
                   href='https://twitter.com/Moechievous'
                   target='_blank'
@@ -173,7 +173,7 @@ function Home() {
                   @Moechievous
                 </a>
               </li>
-              <li> 
+              <li>
                 <a
                   href='https://twitter.com/falzthebahdguy'
                   target='_blank'
@@ -185,19 +185,50 @@ function Home() {
             </ul>
           </section>
 
-          {/* <section>
+          <section>
             <h2>
-              <i className='fas fa-tshirt'></i> Buy an #EndSARS T-shirt
+              <i className='fas fa-user'></i> Meet the developer
             </h2>
-            <img className={styles.ad} src='assets/img/ad.jpg' alt='' />
-          </section> */}
+
+            <ul>
+              <li>
+                <a
+                  href='https://twitter.com/kadetXx'
+                  target='_blank'
+                  rel='noreferrer noopener'
+                >
+                  Twitter
+                </a>
+              </li>
+
+              <li>
+                <a
+                  href='https://www.linkedin.com/in/collins-enebeli-online/'
+                  target='_blank'
+                  rel='noreferrer noopener'
+                >
+                  LinkedIN
+                </a>
+              </li>
+
+              <li>
+                <a
+                  href='https://github.com/kadetXx'
+                  target='_blank'
+                  rel='noreferrer noopener'
+                >
+                  Github
+                </a>
+              </li>
+            </ul>
+          </section>
 
           <section className={styles.contributors}>
             <h2>
               <i className='fas fa-laptop-code'></i> Contributors
             </h2>
             <ul className={styles.twoColumn}>
-              <li>
+              {/* <li>
                 <a
                   href='https://twitter.com/kadetXx'
                   target='_blank'
@@ -205,7 +236,7 @@ function Home() {
                 >
                   @kadetXx
                 </a>
-              </li>
+              </li> */}
 
               <li>
                 <a
