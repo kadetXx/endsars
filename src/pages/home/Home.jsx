@@ -9,7 +9,7 @@ import Broadcast from "./broadcast";
 import Greetings from "./greetings";
 import Templates from "./TweetTemplates";
 import Handles from "./Handles";
-import cbnBody from "./flutterwave";
+// import cbnBody from "./flutterwave";
 import "../../shared/gtag/";
 
 function Home() {
@@ -36,11 +36,7 @@ function Home() {
   const hashtags = `SARSMUSTEND,EndPoliceBrutality`;
   const whatsappTags = `%23SARSMUSTEND %23EndPoliceBrutality %23EndSARSNow %23EndSARSProtests`;
 
-  const cbnSubject = "Flutterwave #EndSARS Payment Link Complaint";
-
-  console.log(
-    `mailto:${`contactcbn@cbn.gov.ng`}?subject=${cbnSubject}&body=${cbnBody}`
-  );
+  // const cbnSubject = "Flutterwave #EndSARS Payment Link Complaint";
 
   return (
     <React.Fragment>
@@ -187,7 +183,7 @@ function Home() {
 
           <section>
             <h2>
-              <i className='fas fa-user'></i> Meet the developer
+              <i className='fas fa-user'></i> The developer
             </h2>
 
             <ul>
@@ -197,7 +193,7 @@ function Home() {
                   target='_blank'
                   rel='noreferrer noopener'
                 >
-                  Twitter
+                  Twitter - @kadetXx
                 </a>
               </li>
 
