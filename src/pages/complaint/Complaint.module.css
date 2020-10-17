@@ -35,6 +35,10 @@ main {
   font-size: 1.5rem;
 }
 
+.textContainer a {
+  color: #C40000;
+}
+
 .textContainer .linksContainer ul {
   list-style: none;
   padding: 0;
@@ -48,6 +52,7 @@ main {
 
 .textContainer .linksContainer ul i {
   margin-right: .5rem;
+  color: #C40000;
 }
 
 .textContainer .linksContainer ul a {
