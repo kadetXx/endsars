@@ -58,7 +58,7 @@ function Complaint() {
           <p>
             Below are links to help lodge a complaint to these companies. Send
             mails or phone calls with a click and let them know that the
-            Nigerian youths are not please with their employee's statement
+            Nigerian youths are not pleased with their employee's statement
           </p>
 
           <div className={styles.linksContainer}>
