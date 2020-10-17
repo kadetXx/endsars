@@ -1,0 +1,57 @@
+main {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.tweetContainer {
+  width: 40%;
+}
+
+.textContainer {
+  width: 57%;
+}
+
+@media(max-width: 850px) {
+
+  main {
+    flex-direction: column-reverse;
+  }
+
+  .textContainer, .tweetContainer {
+    width: 100%;
+  }
+  .textContainer {
+    margin-bottom: 2rem;
+  }
+
+  .tweetContainer {
+    display: flex;
+    justify-content: center;
+  }
+}
+
+.textContainer h3 {
+  font-size: 1.5rem;
+}
+
+.textContainer .linksContainer ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.textContainer .linksContainer ul li {
+  padding: .5rem 0;
+  box-sizing: border-box;
+}
+
+.textContainer .linksContainer ul i {
+  margin-right: .5rem;
+}
+
+.textContainer .linksContainer ul a {
+  color: inherit;
+  font-weight: bold;
+  text-decoration: none;
+}

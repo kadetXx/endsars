@@ -4,6 +4,7 @@ import './App.css';
 
 import Home from './pages/home/Home'
 import Politicians from './pages/politicians/Politicians'
+import Complaint from './pages/complaint/Complaint'
 
 
 function App() {
@@ -12,6 +13,7 @@ function App() {
       <Router>
         <Route exact path='/' component={Home} />
         <Route exact path='/politicians' component={Politicians} />
+        <Route exact path='/complaint' component={Complaint} />
       </Router>
     </div>
   );
