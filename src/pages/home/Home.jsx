@@ -61,10 +61,10 @@ function Home() {
               <h4>Join The Protests </h4>
             </a>
 
-            <Link to='/complaint' className={styles.infoBox}>
+            {/* <Link to='/complaint' className={styles.infoBox}>
               <i className='fas fa-feather-alt'></i>
               <h4>Lodge Complaint For Hussaini Coomasie's Video</h4>
-            </Link>
+            </Link> */}
 
             <a
               href={`http://twitter.com/intent/tweet?text=${tweet}&hashtags=${hashtags}`}
