@@ -67,3 +67,17 @@
   font-family: inherit;
   border-radius: 6px;
 }
+
+.popup button:hover {
+  background-color: red;
+}
+
+.petition{
+  position: relative;
+  animation: moves 5s infinite;
+}
+
+@keyframes moves {
+  from {left: -100px;}
+  to {left: 100px;}
+}

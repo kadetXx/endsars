@@ -5,7 +5,7 @@ function Popup({ action }) {
   return (
     <div className={styles.popup}>
       <div className={styles.box}>
-        <i className='fas fa-edit'></i>
+        <div className={styles.petition}><i className='fas fa-edit'></i></div>
         <h2 className='heading'> You can still do more </h2>
         <p>Sign a petition to bring change</p>
 

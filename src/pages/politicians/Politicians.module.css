@@ -5,6 +5,8 @@ main {
 .search {
   padding: 1rem 0;
   box-sizing: border-box;
+  width: 22.5rem;
+  margin-left: 2%;
 }
 
 .search form {
@@ -42,6 +44,6 @@ input::placeholder {
 .gridContainer {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-around;
+  justify-content: left;
   padding: 1rem 0;
 }

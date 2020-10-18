@@ -1,9 +1,9 @@
 .politician {
-  width: 16.5rem;
+  width: 20rem;
   position: relative;
   border: 1px solid #cecece;
   padding: 2.25rem 1rem 1.25rem 1.5rem;
-  margin: 1.5rem 0;
+  margin: 1.5rem 1.3rem;
   border-radius: 10px;
 }
 

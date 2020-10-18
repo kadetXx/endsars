@@ -60,7 +60,7 @@ p.infoBox {
   justify-content: center;
   align-items: center;
   padding: 2rem 1rem !important;
-  width: 28%;
+  width: 20%;
   margin: 0.5rem;
   border-radius: 5px;
   box-shadow: 0 0 6px 0.5px #3333334b;
@@ -70,6 +70,7 @@ p.infoBox {
 .infoBox:hover {
   transform: translateY(-5%);
   transition: 0.1s ease-out;
+  color: #d80000;
 }
 
 .infoBox i {
@@ -80,10 +81,13 @@ p.infoBox {
   justify-content: center;
   align-items: center;
 }
+.infoBox i:hover {
+  color: #d80000;
+}
 
 .infoBox h4 {
   font-size: 1.2rem;
-  -webkit-text-stroke: 0.2px #f70000;
+  /* -webkit-text-stroke: 0.2px #f70000; */
 }
 
 @media (max-width: 800px) {
@@ -133,7 +137,7 @@ p.infoBox {
 
 .footer section {
   margin-bottom: 2rem;
-  /* flex-grow: 1; */
+  flex-grow: 1;
 }
 
 .footer h2 {

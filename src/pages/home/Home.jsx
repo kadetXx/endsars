@@ -43,7 +43,7 @@ function Home() {
       <Hero />
       <div className={styles.home}>
         <section className={styles.infoSection}>
-          <img src='/assets/img/fist.jpg' className={styles.fistImage} alt='' />
+          <img src='/assets/img/fist.png' className={styles.fistImage} alt='' />
           <h3>
             Ways you can support the <br /> #EndSARS movement
           </h3>
