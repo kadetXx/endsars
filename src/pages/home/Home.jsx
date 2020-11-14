@@ -82,7 +82,7 @@ function Home() {
               <h4>Remind Politicians</h4>
             </Link>
 
-            <p className={styles.infoBox}>
+            {/* <p className={styles.infoBox}>
               <div className={styles.iconGroup}>
                 <a
                   href={`https://api.whatsapp.com/send?phone&text=${Broadcast}${whatsappTags}`}
@@ -110,7 +110,7 @@ function Home() {
               </div>
 
               <h4>Broadcast</h4>
-            </p>
+            </p> */}
           </div>
         </section>
 
