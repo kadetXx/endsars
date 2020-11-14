@@ -5,7 +5,7 @@ import styles from "./Home.module.css";
 import Hero from "../../components/hero/Hero";
 import Popup from "../../components/popup/Popup";
 
-import Broadcast from "./broadcast";
+// import Broadcast from "./broadcast";
 import Greetings from "./greetings";
 import Templates from "./TweetTemplates";
 import Handles from "./Handles";
@@ -34,7 +34,7 @@ function Home() {
   };
 
   const hashtags = `EndSARS`;
-  const whatsappTags = `%23EndSARS %23EndPoliceBrutality`;
+  // const whatsappTags = `%23EndSARS %23EndPoliceBrutality`;
 
   // const cbnSubject = "Flutterwave #EndSARS Payment Link Complaint";
 
