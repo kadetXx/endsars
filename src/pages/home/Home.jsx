@@ -51,7 +51,7 @@ function Home() {
           <div className={styles.boxesContainer}>
             <a
               href='https://www.notion.so/b5632859ff7e4fe09d8cd73880f8aca7?v=6456a7172b9542a0b1487924766eaf7d'
-              // href={`mailto:${`contactcbn@cbn.gov.ng`}?subject=${cbnSubject}&body=${cbnBody}`}
+              // href={`mailto:${`contactcbncbn.gov.ng`}?subject=${cbnSubject}&body=${cbnBody}`}
               target='_blank'
               rel='noreferrer noopener'
               className={styles.infoBox}
@@ -117,7 +117,8 @@ function Home() {
         <footer className={styles.footer}>
           <section>
             <h2>
-              <i className='fab fa-twitter'></i> Follow top activists
+              {/* <i className='fab fa-twitter'></i>  */}
+              Top activists
             </h2>
             <ul>
               <li>
@@ -126,7 +127,7 @@ function Home() {
                   target='_blank'
                   rel='noreferrer noopener'
                 >
-                  @savyrinuu_
+                  savyrinuu_
                 </a>
               </li>
               <li>
@@ -135,7 +136,7 @@ function Home() {
                   target='_blank'
                   rel='noreferrer noopener'
                 >
-                  @mrmacaronii
+                  mrmacaronii
                 </a>
               </li>
               <li>
@@ -144,7 +145,7 @@ function Home() {
                   target='_blank'
                   rel='noreferrer noopener'
                 >
-                  @AishaYesufu
+                  AishaYesufu
                 </a>
               </li>
               <li>
@@ -153,7 +154,7 @@ function Home() {
                   target='_blank'
                   rel='noreferrer noopener'
                 >
-                  @fkabudu
+                  fkabudu
                 </a>
               </li>
               <li>
@@ -162,7 +163,7 @@ function Home() {
                   target='_blank'
                   rel='noreferrer noopener'
                 >
-                  @kikimordi
+                  kikimordi
                 </a>
               </li>
               <li>
@@ -171,7 +172,7 @@ function Home() {
                   target='_blank'
                   rel='noreferrer noopener'
                 >
-                  @Moechievous
+                  Moechievous
                 </a>
               </li>
               <li>
@@ -180,13 +181,13 @@ function Home() {
                   target='_blank'
                   rel='noreferrer noopener'
                 >
-                  @falzthebadguy
+                  falzthebadguy
                 </a>
               </li>
             </ul>
           </section>
 
-          <section>
+          {/* <section>
             <h2>
               <i className='fas fa-user'></i> The developer
             </h2>
@@ -198,7 +199,7 @@ function Home() {
                   target='_blank'
                   rel='noreferrer noopener'
                 >
-                  Twitter - @kadetXx
+                  Twitter
                 </a>
               </li>
 
@@ -222,22 +223,23 @@ function Home() {
                 </a>
               </li>
             </ul>
-          </section>
+          </section> */}
 
           <section className={styles.contributors}>
             <h2>
-              <i className='fas fa-laptop-code'></i> Contributors
+              {/* <i className='fas fa-laptop-code'></i>  */}
+              Contributors
             </h2>
-            <ul className={styles.twoColumn}>
-              {/* <li>
+            <ul >
+              <li>
                 <a
                   href='https://twitter.com/kadetXx'
                   target='_blank'
                   rel='noreferrer noopener'
                 >
-                  @kadetXx
+                  kadetXx
                 </a>
-              </li> */}
+              </li>
 
               <li>
                 <a
@@ -245,7 +247,7 @@ function Home() {
                   target='_blank'
                   rel='noreferrer noopener'
                 >
-                  @Niles_jamex
+                  Niles_jamex
                 </a>
               </li>
 
@@ -255,7 +257,7 @@ function Home() {
                   target='_blank'
                   rel='noreferrer noopener'
                 >
-                  @eniayomi_
+                  eniayomi_
                 </a>
               </li>
 
@@ -265,7 +267,7 @@ function Home() {
                   target='_blank'
                   rel='noreferrer noopener'
                 >
-                  @bhalow_meenat
+                  bhalow_meenat
                 </a>
               </li>
 
@@ -275,7 +277,7 @@ function Home() {
                   target='_blank'
                   rel='noreferrer noopener'
                 >
-                  @ridwanabiola2
+                  ridwanabiola2
                 </a>
               </li>
 
@@ -285,7 +287,7 @@ function Home() {
                   target='_blank'
                   rel='noreferrer noopener'
                 >
-                  @EvidenceISO
+                  EvidenceISO
                 </a>
               </li>
 
@@ -295,7 +297,7 @@ function Home() {
                   target='_blank'
                   rel='noreferrer noopener'
                 >
-                  @iamthepatoo
+                  iamthepatoo
                 </a>
               </li>
 
@@ -305,7 +307,7 @@ function Home() {
                   target='_blank'
                   rel='noreferrer noopener'
                 >
-                  @walebant
+                  walebant
                 </a>
               </li>
 
@@ -315,7 +317,7 @@ function Home() {
                   target='_blank'
                   rel='noreferrer noopener'
                 >
-                  @IamCradoe
+                  IamCradoe
                 </a>
               </li>
 
@@ -325,7 +327,7 @@ function Home() {
                   target='_blank'
                   rel='noreferrer noopener'
                 >
-                  @Mercester_
+                  Mercester_
                 </a>
               </li>
 
@@ -335,7 +337,7 @@ function Home() {
                   target='_blank'
                   rel='noreferrer noopener'
                 >
-                  @a_dayomoshood
+                  a_dayomoshood
                 </a>
               </li>
             </ul>

@@ -10,7 +10,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 3rem 7% 6rem;
+  padding: 5rem 7% 7rem;
 }
 
 @media (max-width: 525px) {
@@ -37,13 +37,14 @@
 }
 
 .boxesContainer {
-  display: flex;
-  justify-content: center;
-  align-items: center;
   width: 100%;
   margin-top: 2rem;
-  flex-wrap: wrap;
-  text-align: center;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+
+  justify-content: center;
+  column-gap: 1rem;
+  row-gap: 1rem;
 }
 
 p.infoBox {
@@ -59,11 +60,11 @@ p.infoBox {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 2rem 1rem !important;
-  width: 28%;
-  margin: 0.5rem;
-  border-radius: 5px;
-  box-shadow: 0 0 6px 0.5px #3333334b;
+  padding: 3rem !important;
+
+  margin: 0;
+
+  box-shadow: 0 3px 20px 0 #3333331a;
   transition: 0.1s ease-out;
 }
 
@@ -83,14 +84,16 @@ p.infoBox {
 
 .infoBox h4 {
   font-size: 1.2rem;
-  -webkit-text-stroke: 0.2px #f70000;
+  -webkit-text-stroke: 0.2px #c90f0c;
+}
+
+@media (max-width: 1200px) {
+  .boxesContainer {
+    grid-template-columns: 1fr;
+  }
 }
 
 @media (max-width: 800px) {
-  .boxesContainer {
-    justify-content: space-between;
-    flex-direction: column;
-  }
   .infoBox {
     width: 80%;
     text-align: center;
@@ -137,7 +140,7 @@ p.infoBox {
 }
 
 .footer h2 {
-  color: #f70000;
+  color: #c90f0c;
   font-size: 1.2rem;
 }
 

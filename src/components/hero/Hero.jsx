@@ -1,23 +1,25 @@
-import React from 'react'
-import styles from './Hero.module.css'
-import Typewriter from '../typewriter/index'
-import { crimeKeywords } from '../../mockData'
+import React from "react";
+import styles from "./Hero.module.css";
+import Typewriter from "../typewriter/index";
+import { crimeKeywords } from "../../mockData";
 
-import Header from '../header/Header'
+import Header from "../header/Header";
 
-function Hero( ) {
+function Hero() {
   return (
     <div className={styles.hero}>
       <Header transparent={true} />
-      <div className={styles.caption} >
-        <h2> Stop <Typewriter texts={ crimeKeywords } />
-          <br/> Let Our Voices be Heard! <br/> <span>#EndSARS!</span> </h2>
-        <a className={styles.about} href="https://en.wikipedia.org/wiki/End_SARS" rel="noopener noreferrer" target="_blank">
+      <div className={styles.caption}>
+        <h2>
+          Stop <span className={styles.captionBold} ><Typewriter texts={crimeKeywords} /></span>
+          <br /> Let Our Voices be Heard! <br /> <span className={styles.captionBold}>#EndSARS!</span>{" "}
+        </h2>
+        {/* <a className={styles.about} href="https://en.wikipedia.org/wiki/End_SARS" rel="noopener noreferrer" target="_blank">
           About This Movement
-        </a>
+        </a> */}
       </div>
     </div>
-  )
+  );
 }
 
-export default Hero
+export default Hero;
