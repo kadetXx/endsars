@@ -44,7 +44,7 @@ function Politicians() {
     <div className={styles.politicians}>
       <Header transparent={false} />
 
-      <main>
+      <main className={styles.wrap} >
         <div className={styles.search}>
           <form>
             <label>

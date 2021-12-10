@@ -36,7 +36,7 @@ function Politician({ name, state, email, phone }) {
         <b>
           <i className='fas fa-map-marker-alt'></i>
         </b>{" "}
-        {state}
+        <span>{state}</span>
       </p>
 
       {email ? (
@@ -49,7 +49,7 @@ function Politician({ name, state, email, phone }) {
             <b>
               <i className='fas fa-envelope'></i>
             </b>
-            {email}
+            <span>{email}</span>
           </a>
         </React.Fragment>
       ) : (
@@ -57,7 +57,7 @@ function Politician({ name, state, email, phone }) {
           <b>
             <i className='fas fa-envelope'></i>
           </b>
-          Not available
+          <span>Not available</span>
         </p>
       )}
 
@@ -68,14 +68,14 @@ function Politician({ name, state, email, phone }) {
               <b>
                 <i className='fas fa-phone'></i>
               </b>
-              {phone}
+              <span>{phone}</span>
             </a>
           ) : (
             <a href={`sms:${phone}?body=${message}`}>
               <b>
                 <i className='fas fa-phone'></i>
               </b>
-              {phone}
+              <span>{phone}</span>
             </a>
           )}
         </React.Fragment>
@@ -84,7 +84,7 @@ function Politician({ name, state, email, phone }) {
           <b>
             <i className='fas fa-phone'></i>
           </b>
-          Not available
+          <span>Not available</span>
         </p>
       )}
     </div>

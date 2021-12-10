@@ -1,9 +1,10 @@
-main {
+.wrap {
   padding: 1% 7%;
+  display: block;
 }
 
 .search {
-  padding: 1rem 0;
+  padding: 2rem 0;
   box-sizing: border-box;
 }
 
@@ -15,7 +16,7 @@ main {
 .search form label {
   width: 100%;
   display: flex;
-  padding: .6rem 1rem;
+  padding: 1rem 2rem;
   align-items: center;
   color: #333333;
   border: 1px solid #efefef;
@@ -24,7 +25,7 @@ main {
 
 .search form label i {
   font-size: 1.2rem;
-  color: #C90F0C;
+  color: #c90f0c;
   margin-right: 1rem;
 }
 
@@ -36,12 +37,13 @@ main {
 
 input::placeholder {
   color: #adadad;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
 .gridContainer {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(330px, 1fr));
+  column-gap: 1.5rem;
+  row-gap: 1.5rem;
   padding: 1rem 0;
 }

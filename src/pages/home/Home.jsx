@@ -45,7 +45,7 @@ function Home() {
         <section className={styles.infoSection}>
           <img src='/assets/img/fist.jpg' className={styles.fistImage} alt='' />
           <h3>
-            Ways you can support the <br /> #EndSARS movement
+            Ways you can support the <br /> <span>#EndSARS</span> movement
           </h3>
 
           <div className={styles.boxesContainer}>
@@ -57,7 +57,8 @@ function Home() {
               className={styles.infoBox}
               onClick={() => setShowPopup(true)}
             >
-              <i className='fa fa-flag'></i>
+              {/* <i className='fa fa-flag'></i> */}
+              <img src="/assets/svg/flag.svg" width={60} height={60} alt="" />
               <h4>Join The Protests </h4>
             </a>
 
@@ -73,12 +74,14 @@ function Home() {
               className={styles.infoBox}
               onClick={() => prepareLink()}
             >
-              <i className='fab fa-twitter'></i>
+              {/* <i className='fab fa-twitter'></i> */}
+              <img src="/assets/svg/twitter.svg" width={60} height={60} alt="" />
               <h4>Tweet</h4>
             </a>
 
             <Link to='/politicians' className={styles.infoBox}>
-              <i className='fas fa-feather-alt'></i>
+              {/* <i className='fas fa-feather-alt'></i> */}
+              <img src="/assets/svg/quill.svg" width={60} height={60} alt="" />
               <h4>Remind Politicians</h4>
             </Link>
 
