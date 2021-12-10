@@ -10,7 +10,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 5rem 7% 7rem;
+  padding: 5rem 7% 9rem;
 }
 
 @media (max-width: 525px) {
@@ -131,12 +131,15 @@ p.infoBox {
 
 @media (min-width: 900px) {
   .footer {
+    text-align: center;
+  }
+  /* .footer {
     display: flex;
   }
 
   .footer section {
     margin-right: 5%;
-  }
+  } */
 }
 
 .footer section {
